@@ -1,0 +1,41 @@
+title: "[AI PROJECT SHOWCASE]: "
+labels: ["ai-project", "showcase"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Showcasing an AI project related to Andromeda or Web3? We'd love to see it!
+  - type: input
+    id: project-name
+    attributes:
+      label: "1. Project Name"
+      description: "What is the name of your AI project?"
+    validations:
+      required: true
+  - type: textarea
+    id: project-description
+    attributes:
+      label: "2. Project Description & AI Aspect"
+      description: "Tell us about your project. What does it do? How does it leverage AI? What ADOs or Andromeda features (if any) does it use?"
+      placeholder: "Describe your project and its AI components here..."
+    validations:
+      required: true
+  - type: input
+    id: project-link
+    attributes:
+      label: "3. Link to Project (e.g., Live Demo, GitHub Repo, Video, Research Paper)"
+      description: "Where can we see or learn more about your project?"
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: tech-stack
+    attributes:
+      label: "4. Key AI Technologies/Models Used (Optional)"
+      description: "e.g., Specific LLMs, frameworks, algorithms."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Feel free to include screenshots, diagrams, or short videos if they help showcase your project!

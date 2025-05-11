@@ -1,0 +1,37 @@
+title: "[LLM/AGENT DEV]: Discussion on "
+labels: ["llm", "ai-agents", "development"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Discuss development related to Large Language Models (LLMs) or AI Agents, especially in the context of Andromeda or Web3.
+  - type: input
+    id: dev-topic
+    attributes:
+      label: "1. Specific Topic or Question"
+      description: "What aspect of LLM or AI Agent development do you want to discuss?"
+      placeholder: "e.g., Fine-tuning LLMs for Web3, building autonomous agents with ADOs, specific library usage"
+    validations:
+      required: true
+  - type: textarea
+    id: technical-details
+    attributes:
+      label: "2. Technical Details / Code Snippets (If applicable)"
+      description: "Provide any relevant technical information, code examples, or challenges faced."
+      render: "markdown" # Allows for code formatting
+    validations:
+      required: false
+  - type: textarea
+    id: desired-outcome
+    attributes:
+      label: "3. Desired Outcome or Questions for the Community"
+      description: "What are you hoping to achieve with this discussion? What specific questions do you have?"
+    validations:
+      required: true
+  - type: textarea
+    id: additional-links
+    attributes:
+      label: "Relevant Links (Optional)"
+      description: "Share any links to documentation, research papers, or repositories."
+    validations:
+      required: false

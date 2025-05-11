@@ -1,0 +1,36 @@
+title: "[AI TOOLING/FRAMEWORK]: Discussion on "
+labels: ["ai-tooling", "frameworks"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Let's discuss AI tools, libraries, or frameworks relevant to Web3 and Andromeda.
+  - type: input
+    id: tool-framework-name
+    attributes:
+      label: "1. Tool/Framework Name(s)"
+      description: "Specify the AI tool, library, or framework you want to discuss."
+      placeholder: "e.g., Langchain, TensorFlow, Hugging Face Transformers, custom agents"
+    validations:
+      required: true
+  - type: textarea
+    id: discussion-points
+    attributes:
+      label: "2. Key Discussion Points or Questions"
+      description: "What specific aspects, use cases, integrations, or challenges do you want to discuss regarding this tool/framework in the context of Andromeda or Web3?"
+    validations:
+      required: true
+  - type: textarea
+    id: relevance-to-andromeda
+    attributes:
+      label: "3. Relevance to Andromeda (Optional)"
+      description: "How could this tool/framework be leveraged by or benefit the Andromeda ecosystem?"
+    validations:
+      required: false
+  - type: textarea
+    id: additional-links
+    attributes:
+      label: "Relevant Links (Optional)"
+      description: "Share any links to documentation, articles, or examples."
+    validations:
+      required: false

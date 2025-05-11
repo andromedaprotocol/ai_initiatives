@@ -1,0 +1,35 @@
+title: "[AI IDEA]: "
+labels: ["ai-idea", "suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an innovative AI-related idea for Andromeda or the Web3 space? Please share the details!
+  - type: textarea
+    id: problem-opportunity
+    attributes:
+      label: "1. What problem does your AI idea address, or what new opportunity does it create?"
+      description: "Clearly describe the context and the need."
+    validations:
+      required: true
+  - type: textarea
+    id: idea-description
+    attributes:
+      label: "2. Describe your AI idea."
+      description: "What is it? How would it work? What are its key aspects?"
+    validations:
+      required: true
+  - type: textarea
+    id: potential-impact
+    attributes:
+      label: "3. What is the potential impact or benefit?"
+      description: "How could this idea improve Andromeda, Web3, or user experiences?"
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "Additional Context (Optional)"
+      description: "Include any relevant links, research, diagrams, or examples."
+    validations:
+      required: false

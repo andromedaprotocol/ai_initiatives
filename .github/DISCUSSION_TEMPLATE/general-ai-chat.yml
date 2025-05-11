@@ -1,0 +1,15 @@
+title: "[GENERAL AI CHAT]: "
+labels: ["general-discussion", "ai"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have something AI-related to discuss that doesn't fit other categories? Or just want to chat about AI in Web3?
+  - type: textarea
+    id: discussion-topic
+    attributes:
+      label: "Discussion Topic / Question"
+      description: "What would you like to talk about?"
+      placeholder: "Start your discussion here..."
+    validations:
+      required: true

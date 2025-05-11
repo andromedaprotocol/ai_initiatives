@@ -1,0 +1,36 @@
+title: "[AI & WEB3 CONCEPT]: Discussion on "
+labels: ["ai-web3", "concept"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Explore and discuss concepts at the intersection of AI and Web3.
+  - type: input
+    id: concept-name
+    attributes:
+      label: "1. Concept/Topic Name"
+      description: "What specific AI & Web3 concept do you want to discuss?"
+      placeholder: "e.g., Decentralized AI models, AI-powered DAOs, On-chain AI oracles"
+    validations:
+      required: true
+  - type: textarea
+    id: concept-details
+    attributes:
+      label: "2. Details and Discussion Points"
+      description: "Elaborate on the concept. What are its implications, potential applications, challenges, or questions you have?"
+    validations:
+      required: true
+  - type: textarea
+    id: relevance-to-andromeda
+    attributes:
+      label: "3. Relevance to Andromeda (Optional)"
+      description: "How might this concept apply to or impact the Andromeda ecosystem?"
+    validations:
+      required: false
+  - type: textarea
+    id: additional-links
+    attributes:
+      label: "Relevant Links (Optional)"
+      description: "Share any links to articles, papers, or existing projects."
+    validations:
+      required: false

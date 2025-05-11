@@ -1,0 +1,36 @@
+title: "[ETHICAL AI]: Discussion on "
+labels: ["ethics", "ai-governance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Discuss the ethical implications, challenges, and best practices for AI in blockchain and Web3.
+  - type: input
+    id: ethical-topic
+    attributes:
+      label: "1. Specific Ethical Topic/Concern"
+      description: "What ethical aspect of AI in blockchain do you want to discuss?"
+      placeholder: "e.g., Bias in AI oracles, data privacy with on-chain AI, AI agent accountability"
+    validations:
+      required: true
+  - type: textarea
+    id: discussion-details
+    attributes:
+      label: "2. Details and Discussion Points"
+      description: "Elaborate on the topic. What are the key considerations, potential risks, proposed solutions, or questions?"
+    validations:
+      required: true
+  - type: textarea
+    id: relevance-to-andromeda
+    attributes:
+      label: "3. Relevance to Andromeda (Optional)"
+      description: "How should the Andromeda ecosystem approach or address this ethical consideration?"
+    validations:
+      required: false
+  - type: textarea
+    id: additional-links
+    attributes:
+      label: "Relevant Links (Optional)"
+      description: "Share any links to articles, research, or guidelines."
+    validations:
+      required: false
